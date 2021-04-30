@@ -1,0 +1,29 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "arduino http conection with cloud ECR instance",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.884.0",
+    "chart.js": "^3.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "plotly.js-dist": "^1.58.4",
+    "statistics.js": "^1.0.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "http",
+    "cloud",
+    "ecr",
+    "node",
+    "arduino"
+  ],
+  "author": "Equipo2",
+  "license": "ISC"
+}
