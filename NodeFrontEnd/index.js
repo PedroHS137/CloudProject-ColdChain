@@ -48,7 +48,7 @@ function sortDate(arr, a) {
 }
 
 //let x = document.getElementById("id").value;
-
+//https://ij60i8kpw0.execute-api.us-east-1.amazonaws.com/prod/api/coldchain/
 //get method template for futher features
 app.get('/temp', (req, res) => {
     let id = req.query.id;
@@ -57,7 +57,7 @@ app.get('/temp', (req, res) => {
         res.status(401).send("id invalido");
     } else {
         
-        let jstm = JSON.parse(httpGet('https://ij60i8kpw0.execute-api.us-east-1.amazonaws.com/prod/api/coldchain/'+id));
+        let jstm = JSON.parse(httpGet('https://fx6z5waemc.execute-api.us-east-1.amazonaws.com/prod/api/coldchain/'+id));
         
         let sensor1 = sortDate(jstm['0x48'], 1);
         let sensor2 = sortDate(jstm['0x49']);
